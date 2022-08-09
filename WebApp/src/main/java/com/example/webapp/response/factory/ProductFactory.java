@@ -19,7 +19,7 @@ public class ProductFactory implements ResponseFactory{
         productResponse.setProduct(this.product);
         productResponse.setCode("200");
         productResponse.setMessage("success");
-        return new OrderResponse();
+        return productResponse;
     }
 
     @Override
