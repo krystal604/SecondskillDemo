@@ -1,6 +1,6 @@
 package com.example.webapp.response.factory;
 
-import com.example.webapp.Entity.Entity;
+import com.Entity.Entity;
 import com.example.webapp.response.entity.AbstractResponse;
 
 public interface ResponseFactory {

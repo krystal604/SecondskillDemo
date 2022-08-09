@@ -7,13 +7,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SecondskillDemo" />
+        <module name="Persistence" />
+        <module name="API" />
         <module name="WebApp" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Persistence" options="-parameters" />
       <module name="WebApp" options="-parameters" />
     </option>
   </component>

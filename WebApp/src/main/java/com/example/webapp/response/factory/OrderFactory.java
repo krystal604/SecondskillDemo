@@ -1,7 +1,8 @@
 package com.example.webapp.response.factory;
 
-import com.example.webapp.Entity.Entity;
-import com.example.webapp.Entity.Order;
+
+import com.Entity.Entity;
+import com.Entity.Order;
 import com.example.webapp.response.entity.AbstractResponse;
 import com.example.webapp.response.entity.OrderResponse;
 import lombok.Data;

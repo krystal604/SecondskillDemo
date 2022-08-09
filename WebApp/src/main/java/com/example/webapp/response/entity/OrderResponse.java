@@ -1,6 +1,6 @@
 package com.example.webapp.response.entity;
 
-import com.example.webapp.Entity.Order;
+import com.Entity.Order;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

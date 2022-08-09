@@ -1,4 +1,4 @@
-package com.example.webapp.Entity;
+package com.Entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,11 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Order extends Entity{
-    String OrderId;
-    String time;
-    String address;
-    int number;
-
-    Product product;
+public class Product extends Entity{
+    String productId;
+    String productName;
 }

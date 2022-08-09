@@ -1,6 +1,6 @@
 package com.example.webapp.response;
 
-import com.example.webapp.Entity.Entity;
+import com.Entity.Entity;
 import com.example.webapp.response.entity.AbstractResponse;
 import com.example.webapp.response.factory.Redgister.RegisterMap;
 import com.example.webapp.response.factory.ResponseFactory;
